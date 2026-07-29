@@ -11,12 +11,12 @@ Utilizaremos la arquitectura moderna de **minicrates modulares de Solana v2.x** 
 1. [Conceptos Básicos y Arquitectura](#1-conceptos-básicos-y-arquitectura)
 2. [Estructura del Proyecto](#2-estructura-del-proyecto)
 3. [Requisitos Previos](#3-requisitos-previos)
-4. [Paso 1: Configuración de Dependencias (`Cargo.toml`)](#paso-1-configuración-de-dependencias-cargotoml)
-5. [Paso 2: Variables de Entorno (`.env`)](#paso-2-variables-de-entorno-env)
-6. [Paso 3: Desarrollo del Servidor API REST (`src/main.rs`)](#paso-3-desarrollo-del-servidor-api-rest-srcmainrs)
-7. [Paso 4: Compilación y Ejecución](#paso-4-compilación-y-ejecución)
-8. [Paso 5: Pruebas de la API (curl, Postman, JS)](#paso-5-pruebas-de-la-api-curl-postman-js)
-9. [Buenas Prácticas y Seguridad](#buenas-prácticas-y-seguridad)
+4. [Paso 1: Configuración de Dependencias (`Cargo.toml`)](#4-paso-1-configuración-de-dependencias-cargotoml)
+5. [Paso 2: Variables de Entorno (`.env`)](#5-paso-2-variables-de-entorno-env)
+6. [Paso 3: Desarrollo del Servidor API REST (`src/main.rs`)](#6-paso-3-desarrollo-del-servidor-api-rest-srcmainrs)
+7. [Paso 4: Compilación y Ejecución](#7-paso-4-compilación-y-ejecución)
+8. [Paso 5: Pruebas de la API (curl, Postman, JS)](#8-paso-5-pruebas-de-la-api-curl-postman-js)
+9. [Buenas Prácticas y Seguridad](#buenas-prácticas-y-seguridad-en-producción)
 
 ---
 
@@ -303,7 +303,7 @@ Deberías ver la siguiente salida en consola:
 
 ---
 
-## 8. Paso 5: Pruebas de la API
+## 8. Paso 5: Pruebas de la API (curl, Postman, JS)
 
 ### Prueba con `curl`
 
